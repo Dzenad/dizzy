@@ -9,7 +9,7 @@ const PORT = CONFIG.LOCAL_PORT;
 
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/index.html'));
+  res.sendFile(path.join(__dirname, '/src/app/index.html'));
 });
 
 app.listen(3000, (err) => {
@@ -17,5 +17,5 @@ app.listen(3000, (err) => {
     console.error(err);
   }
   console.log(`Listening on port ${PORT}`);
-  open(`http://localhost${PORT}`);
+  open(`http://localhost:${PORT}`);
 })
