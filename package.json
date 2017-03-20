@@ -1,0 +1,33 @@
+{
+  "name": "dizzy",
+  "version": "1.0.0",
+  "description": "Team project management tool",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dzenad/dizzy.git"
+  },
+  "keywords": [
+    "dizzy",
+    "team",
+    "management",
+    "project",
+    "management"
+  ],
+  "author": "Dzenad Dedic, David Ly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dzenad/dizzy/issues"
+  },
+  "homepage": "https://github.com/Dzenad/dizzy#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "open": "0.0.5"
+  }
+}
