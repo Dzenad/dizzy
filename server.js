@@ -29,6 +29,6 @@ server.listen(port, (err) => {
   if (err) {
     console.error(err);
   }
-  console.log(`Listening on port ${PORT}`);
-  open(`http://localhost:${PORT}`);
+  console.log(`Listening on port ${port}`);
+  open(`http://localhost:${port}`);
 })
