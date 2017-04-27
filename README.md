@@ -7,4 +7,4 @@
 - [x] - Establish Linting Rules
 - [x] - Get Express up and serving smoke test page
 - [x] - Wire up NG2 to Focus project (Setup Typescript and TSC to work in the project.)
- 
+- [ ] - Setup skeleton with base CSS 
